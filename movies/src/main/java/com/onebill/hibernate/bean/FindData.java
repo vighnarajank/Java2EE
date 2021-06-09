@@ -12,8 +12,9 @@ public class FindData {
 	public static void main(String[] args) {
 		EntityManagerFactory emf = Persistence.createEntityManagerFactory("movies");
 		EntityManager em = emf.createEntityManager();
-		Movies m = em.find(Movies.class, 45);
-		System.out.println(m.getMid());
+		Movies m = em.find(Movies.class, 2);
+		Movies m1 = em.getReference(Movies.class, 2);
+		System.out.println(m1.getMid());
 		System.out.println(m.getMname());
 	}
 
