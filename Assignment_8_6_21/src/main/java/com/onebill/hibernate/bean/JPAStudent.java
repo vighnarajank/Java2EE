@@ -11,8 +11,8 @@ public class JPAStudent {
 
 	public static void main(String[] args) {
 		Student stu = new Student();
-		stu.setSid(35);
-		stu.setSname("Karthick");
+		stu.setSid(36);
+		stu.setSname("Raj Kumar");
 		stu.setMarks(90);
 		
 		EntityManagerFactory emf = Persistence.createEntityManagerFactory("stud");
