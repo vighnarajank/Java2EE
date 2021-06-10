@@ -13,7 +13,7 @@ public class App
     public static void main( String[] args )
     {
     	Movies mov = new Movies();
-		mov.setMid(2);
+		mov.setMid(5);
 		mov.setMname("IronMan3");
 		mov.setMrating(9.7);
 		mov.setMreview("Action");
